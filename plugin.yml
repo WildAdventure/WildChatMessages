@@ -1,0 +1,14 @@
+name: WildChatMessages
+main: com.gmail.filoghost.wildchatmessages.WildChatMessages
+version: 1.0
+softdepend: [WildCommons, Towny]
+
+commands:
+   msg:
+      description: Manda un messaggio.
+      aliases: [m, tell, t, whisper, w]
+   reply:
+      description: Rispondi a un messaggio privato.
+      aliases: [r]
+   socialspy:
+      description: Visualizza conversazioni private.
